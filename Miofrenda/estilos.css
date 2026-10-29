@@ -1,0 +1,142 @@
+
+/* Fuente opcional */
+body {
+    font-family: 'Poppins', sans-serif;
+
+    background-image: url("https://i.pinimg.com/736x/00/c1/ff/00c1ff2fad96c60416f47e8e953c3ee4.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+
+h1 {
+    font-size: 2.5em;
+    text-shadow: 0 0 10px #ff9800;
+    margin: 20px 0;
+}
+
+.ofrenda {
+    position: relative;
+    margin: 2rem auto;
+    display: inline-block;
+    padding: 20px;
+}
+
+#imagenOfrenda {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 5px solid white;
+    transition: opacity 0.5s ease-in-out;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #ff9800;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    font-size: 24px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#anterior {
+    left: -60px;
+}
+
+#siguiente {
+    right: -60px;
+}
+
+.puntos {
+    margin-top: 15px;
+}
+
+.punto {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin: 0 5px;
+    background: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.punto.activo {
+    background: #ff9800;
+}
+
+#btnMusica {
+    position: static;
+    margin-top: 20px;
+}
+.ofrenda {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin: 30px auto;
+    width: fit-content;
+}
+
+.marco {
+    position: relative;
+}
+
+#imagenOfrenda {
+    display: block;
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 5px solid white;
+}
+
+#anterior,
+#siguiente {
+    position: static;
+    transform: none;
+    flex-shrink: 0;
+    background: #ff9800;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    font-size: 24px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.marco {
+    position: relative;
+    display: block;
+    width: 400px;
+    max-width: 100%;
+}
+
+#tituloFoto {
+    color: #ffcc66;
+    font-size: 28px;
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+    margin: 25px auto 10px;
+}
